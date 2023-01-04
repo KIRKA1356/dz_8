@@ -1,35 +1,18 @@
-class Soup:
-    def __init__(self, soup, ingridient):
-        self.soup = soup
-        self.ingridient = ingridient
-        self.hot_water = 'просто кипяток!'
-    def show_my_soup(self):
-        if self.ingridient == 'свекла':
-            self.hot_water = self.ingridient
-            return f'В супе "{self.soup}" гавный ингридиент - "{self.ingridient}"'
-        else:
-            return f'Это не {self.soup} - это просто {self.hot_water}'
+# class Soup:
+#     def __init__(self, soup, ingridient):
+#         self.soup = soup
+#         self.ingridient = ingridient
+#         self.hot_water = 'просто кипяток!'
+#     def show_my_soup(self):
+#         if self.ingridient == 'свекла':
+#             self.hot_water = self.ingridient
+#             return f'В супе "{self.soup}" гавный ингридиент - "{self.ingridient}"'
+#         else:
+#             return f'Это не {self.soup} - это просто {self.hot_water}'
 
-soup = Soup('Борщ', 'свекла')
-print(soup.show_my_soup())
+# soup = Soup('Борщ', 'свекла')
+# print(soup.show_my_soup())
 
-list1= []
-class Students:
-    def __init__(self, name, group, ocenka):
-        self.name = name
-        self.group = group
-        self.ocenka = ocenka
-    def add_in_spisok(self, list):
-        self.list = list
-        list = []
-        list.append(self.name)
-        list.append(self.group)
-        list.append(self.ocenka)
-    def print_students(shape):
-        print(shape.list)
-
-t = Students("Павел", "1345", 5)
-print(t.print_students())
 
 import random
 import statistics
